@@ -1,0 +1,367 @@
+.header {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #333;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 70px;
+  font-size: 18px;
+  z-index: 8;
+}
+
+a {
+  color: #333 !important;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 5px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  padding: 0 10px;
+}
+
+.content {
+  padding-top: 70px;
+}
+
+.home {
+  background: #8cb46d;
+  color: #fff;
+  padding: 80px 0 0;
+}
+
+.home .title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.home .conts {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+  min-height: 38vh;
+  line-height: 60px;
+}
+
+.but {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.ant-btn-primary,
+.ant-btn-primary:focus,
+.ant-btn-primary:hover {
+  border-color: #ede563 !important;
+  background: #ede563 !important;
+  color: #333 !important;
+}
+
+.ant-btn-round.ant-btn-lg {
+  width: 300px;
+  height: 70px !important;
+  font-size: 20px !important;
+}
+
+.img {
+  display: block;
+  width: 100%;
+}
+
+.mid {
+  padding: 120px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mid .right {
+  margin-left: 10%;
+  text-align: center;
+  flex: 1;
+}
+
+.mid .title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mid .conts {
+
+  font-size: 24px;
+  font-weight: bold;
+  min-height: 38vh;
+  line-height: 60px;
+
+}
+
+.img1 {
+  width: 400px !important;
+  height: 400px;
+  display: block;
+}
+
+.bot {
+  padding: 120px 0;
+}
+
+.bot .title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bot .conts {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+  min-height: 38vh;
+  line-height: 60px;
+}
+.Journey .ant-carousel .slick-dots li.slick-active button{
+  background: #333;
+}
+.Journey .ant-carousel .slick-dots li button{
+  background: #333;
+}
+.Journey .itembox {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  
+  /* height: calc(100vh - 70px); */
+}
+.itembox1{
+  background: #C1FFC1;
+}
+.itembox2{
+  background: #C6E2FF;
+}
+.itembox3{
+  background: #FFEC8B;
+}
+.itembox4{
+  background: #cccccc;
+}
+
+
+.slip-item {
+  height: 100% !important;
+}
+
+.firstPageContWrap {
+  padding: 150px 10% 0;
+  height: 60%;
+}
+
+.firstPageCont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstPageCont>div {
+  width: 50%;
+  margin: 40px 0;
+}
+
+.firstPageCont>div:nth-child(2) {}
+.itembox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 创建四列，每列等宽 */
+  gap: 20px; /* 格子间的间隙 */
+}
+
+.icons {
+  width: 150px; /* 图标宽度 */
+  display: block;
+  margin: 0 auto; /* 水平居中 */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr); /* Adjust based on your grid */
+  position: relative; /* To position the character absolutely within */
+}
+
+/* .icons {
+  width: 150px;
+  
+  display: block;
+} */
+
+.icons0 {
+  margin-left: 100px;
+}
+
+.icons1 {
+  margin-left: 400px;
+}
+
+.icons2 {
+  margin-left: 300px;
+}
+
+.icons3 {
+  margin-left: 850px;
+}
+
+.swiper {
+  margin: 0 auto;
+  width: 80%;
+  /* height:250px; */
+  height: auto;
+  /* background: #acf8ac; */
+  border-radius: 8px;
+}
+
+.swiperInner {
+  position: relative;
+  height: 100%;
+}
+
+.leftIcon {
+  position: absolute;
+  left: 20px;
+  z-index: 99;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.rightIcon {
+  position: absolute;
+  right: 20px;
+  z-index: 99;
+  cursor: pointer;
+  font-size: 30px;
+}
+.sameicon{
+  /* top: 110px; */
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sameicon img{
+  width: 30px;
+}
+.swiperItem {
+  height: 100%;
+  width: 80%;
+  height:250px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+
+/* info */
+.card-container {
+  display: flex;
+  justify-content: center; /* Center cards horizontally */
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column; /* Align content vertically */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.card-front {
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.card-back {
+  background-color: #f8f8f8; /* Lighter gray background */
+  transform: rotateY(180deg);
+}
+
+/* Different background colors for each card */
+.card:nth-child(1) .card-front {
+  background-color: #ffcccc; /* Light red */
+}
+
+.card:nth-child(2) .card-front {
+  background-color: #ccffcc; /* Light green */
+}
+
+.card:nth-child(3) .card-front {
+  background-color: #ccccff; /* Light blue */
+}
+
+.card:nth-child(4) .card-front {
+  background-color: #ffffcc; /* Light yellow */
+}
+
+/* Make all titles bold and centered */
+.card-front .ant-statistic-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  text-align: center; /* Center title */
+}
+
+.card-back p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  text-align: center; /* Center text */
+}
+
+
+
+
+
+.info-page{
+  margin-left: 350px;
+  margin-right: 350px; 
+}
